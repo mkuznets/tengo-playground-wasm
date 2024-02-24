@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tengo Language</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+</head>
+
+<body>
+<div id="header">
+    <div id="header-fix">
+        <div id="head">
+            <a href="/">The Tengo Playground</a>
+        </div>
+        <div id="controls">
+            <a href="#" id="run-button" title="Ctrl+Enter or Cmd+Enter (Mac)">Run</a>
+            <a href="https://github.com/d5/tengo" id="github-button">GitHub</a>
+        </div>
+        <div id="copyright">Copyright &copy; 2021 <a href="https://github.com/d5">Daniel Kang</a>. All rights reserved.</div>
+    </div>
+</div>
+<div id="editor"></div>
+<div id="output"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<script src="wasm_exec.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
